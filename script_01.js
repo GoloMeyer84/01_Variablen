@@ -65,10 +65,10 @@ console.log(test2);
 let ageJohn, ageMark;
 let birthYearJohn, birthYearMark;
 
-let year = 2022 ; // kann als Variable angegeben werden
+// let year = 2022 ; // kann als Variable angegeben werden
 // const year = 2022; // besser ist allerdings die Konstante (da sich der Wert nicht ändern soll)
-// let year = new Date(); //neuen Datentyp : Datum erzeugen
-// let year = date.getFullYear(); //volles Jahr aus dem Datum verwenden
+let date = new Date(); //neuen Datentyp : Datum erzeugen
+let year = date.getFullYear(); //volles Jahr aus dem Datum verwenden
 
 //Wertzuweisung//
 ageJohn = 25;
@@ -84,6 +84,8 @@ console.log("Das Geburtsjahr von John ist " + birthYearJohn);
 console.log("Das Geburtsjahr von Mark ist " + birthYearMark );
 
 // BEISPIEL ENDE //
+
+
 
 
 
